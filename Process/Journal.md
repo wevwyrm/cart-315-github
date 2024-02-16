@@ -2,8 +2,8 @@
 
 ## Game Analysis: Tiny Rogues
 
-**Tiny Rogues!\**
-My current obsession!!\
+*Tiny Rogues!\*
+My current obsession!!
 [link to steam page...](https://store.steampowered.com/app/2088570/Tiny_Rogues/)\
 
 I got into it a year ago, and then recently went back due to a huge content update. It's a one man show game that's still in early access, with a lot of plans for future content. In brief, it’s a bullet hell roguelite where the player descends 10 levels to kill a final boss. Fun no?
