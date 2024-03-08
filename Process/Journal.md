@@ -1,8 +1,12 @@
 # Rev's Design Journal
+## Index
+* [Game Analysis](#game-analysis)
+* [Conceptualizing](#conceptualizing)
 
-## Game Analysis: Tiny Rogues
 
-*Tiny Rogues!*\
+
+## Game Analysis
+### *Tiny Rogues!*
 My current obsession!!\
 [link to steam page...](https://store.steampowered.com/app/2088570/Tiny_Rogues/)
 
@@ -15,4 +19,7 @@ Another aspect of this skill tree is the fact that “easy mode” is not immedi
 
 **Accessibility:**\
 Honorable mention to the graphic’s accessibility. Tiny Rogues uses two big visual filters to give the screen a vhs effect. This, in turn, means that light sensitive people can’t play it due to how much the screen shake, the blown up screen and the glitch lines interact with the game's projectiles. In the settings, RubyDev has implemented a slider for the players to customize how present these filters are (from all of them to none of them)!
+
+
+## Conceptualizing
 
