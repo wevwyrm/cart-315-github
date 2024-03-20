@@ -2,6 +2,7 @@
 ## Index
 * [Game Analysis](#game-analysis)
 * [Conceptualizing](#conceptualizing)
+* [Prototyping Stage 1](#prototypingstage1)
 
 
 
@@ -22,4 +23,22 @@ Honorable mention to the graphic’s accessibility. Tiny Rogues uses two big vis
 
 
 ## Conceptualizing
+
+My Ideation Process
+// Design Values
+// Precedents
+// 3 Favorite Ideas
+
+(just a few sentences to capture the main game concept)
+
+## PrototypingStage1
+
+//first stage of prorotyping process
+- what was your idea
+- what specific questions where you trying to answer (goals)
+- was is a look/feel, role or implementation prorotype
+- what fidelity are you dealing with
+- what did you learn
+- what are the next steps
+
 
