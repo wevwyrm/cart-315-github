@@ -25,6 +25,7 @@ Honorable mention to the graphic’s accessibility. Tiny Rogues uses two big vis
 ## Conceptualizing
 
 *My ideation process?* 
+
 I instantly knew I wanted to make a tower defense game. It was the rest of the concept I had to really work on. The main design values I tried to keep in mind were experience, decision-making and strategy. There's something to be said about card games, tower defense, turn based and puzzle games, where each decision you make is important.
 *The question is how can I mix them all together?*
 
@@ -42,19 +43,21 @@ Isle of Arrows, Wildfrost, WitchHand, Bloons TD6, Forward: Escape the Fold, Baba
 
 The First Stage of the prototype process. :) 
 
-*What was your idea*
+#### *What was your idea*
+
 My idea is a turn based tower defense game where the player moves the end goal of the map.  There is only 1 tower the player can place/control. The enemies only advance the path every time the player moves their tower. The player then uses the one tower to attack, and depending on different power-up cards you place, it changes the tower’s ability to deal damage. If the tower loses all health points, it’s game over. 
 
 
-*What specific questions where you trying to answer (goals)*
+#### *What specific questions where you trying to answer (goals)*
 
 “How can I innovate on a base tower defense game?”
 “What happens when enemies only advance when the player moves?”
 
 
-*Was is a look/feel, role or implementation prototype*
+#### *Was is a look/feel, role or implementation prototype*
 
 Definitely a look/feel prototype, since I was trying to get the flow of the gameplay figured out. I had scribbled on a page with cards and paper tokens in which people could move around with the following rules:
+
 - You may only move 1 step forward in each cardinal direction (no sideways)
 - Every time you move, the enemies advance 1
 - Each action moves ”time” forward 
@@ -62,12 +65,12 @@ Definitely a look/feel prototype, since I was trying to get the flow of the game
 - You start with 3 health
 
 
-*What fidelity are you dealing with*
+#### *What fidelity are you dealing with*
 
 I'm definetly working with Low Fidelity. I cant worry about graphics yet in order to properly hammer out the mechanics. Although... I'm really liking the idea of having a papercraft-esque vibe to the artwork...
 
 
-*What did you learn*
+#### *What did you learn*
 
 Well… im starting to understand why some devs insist on not wanting to switch game engines… It's all about personal preference in the end. Maybe i'm just too used to Godot’s responsiveness and lightweight UI, but i've been genuinely fighting with myself over Unity
 After talking about it with some people, while going over my prototype, I've come to the consensus that it's better to actually make something and hand it in rather than wallow in turmoil. For the rest of this project, I'll be switching over to godot. It might take a bit more work to unravel my ideas to make them work on there but i think it's for the best long term. 
@@ -75,7 +78,7 @@ After talking about it with some people, while going over my prototype, I've com
 I also need to remind myself that theres no right way to go about prototyping. I'm supposed to fail, and then learn from it. Nothing is perfect on the first try. I gotta remember all that...
 
 
-*What are the next steps?*
+#### *What are the next steps?*
 
 Well, for one, I have to retranslate all my plans over to Godot, which won't take very long imo. 
 Here ive broken down the elements I want for sure in my game:
