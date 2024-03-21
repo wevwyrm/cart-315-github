@@ -37,11 +37,13 @@ My 3 favorite ideas were as follows:
 As for my main game inspirations?
 Isle of Arrows, Wildfrost, WitchHand, Bloons TD6, Forward: Escape the Fold, Baba Is You
 
-
+[alt text](cart-315-github\Process\paper_prototype_1)
 
 ## PrototypingStage1
 
 The First Stage of the prototype process. :) 
+
+[alt text](cart-315-github\Process\paper_prototype_2)
 
 #### *What was your idea*
 
