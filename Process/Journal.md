@@ -37,18 +37,19 @@ My 3 favorite ideas were as follows:
 As for my main game inspirations?
 Isle of Arrows, Wildfrost, WitchHand, Bloons TD6, Forward: Escape the Fold, Baba Is You
 
-![brainstorming](paper_prototype_1.jpg)
 
 ## PrototypingStage1
 
 The First Stage of the prototype process. :) 
 
-![basiclevel](paper_prototype_2.jpg)
+![brainstorming](paper_prototype_1.jpg)
+
 
 #### *What was your idea*
 
 My idea is a turn based tower defense game where the player moves the end goal of the map.  There is only 1 tower the player can place/control. The enemies only advance the path every time the player moves their tower. The player then uses the one tower to attack, and depending on different power-up cards you place, it changes the tower’s ability to deal damage. If the tower loses all health points, it’s game over. 
 
+![basiclevel](paper_prototype_2.jpg)
 
 #### *What specific questions where you trying to answer (goals)*
 
