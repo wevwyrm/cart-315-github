@@ -3,7 +3,7 @@
 * [Game Analysis](#game-analysis)
 * [Conceptualizing](#conceptualizing)
 * [Prototyping Stage 1](#prototypingstage1)
-
+* [Prototyping Stage 2](#prototypingstage2)
 
 
 ## Game Analysis
@@ -35,7 +35,7 @@ My 3 favorite ideas were as follows:
 3) Your currency is == to your lives
 
 As for my main game inspirations?
-Isle of Arrows, Wildfrost, WitchHand, Bloons TD6, Forward: Escape the Fold, Baba Is You
+Isle of Arrows, Wildfrost, WitchHand, Bloons TD6, Forward: Escape the Fold, Baba Is You, Superhot
 
 ![brainstorming](paper_prototype_1.jpg)
 
@@ -90,3 +90,16 @@ Here ive broken down the elements I want for sure in my game:
 - Time/Move counter 
 - Health… (do i want health == attack? health == currency? All of the above? Still gotta figure it out…)
 
+
+## PrototypingStage2
+
+FREAKEN EUREKA 
+OH MY GOD :SOB: 
+
+first of all, moving to godot was the best decision of my life. I was able to set up my basics in a day, compared to the basics i have even yet to understand in unity... 
+
+Second of all, tutorials really are godsent sometimes. This last week and a half ive spent so much time trying to understand how to spawn enemies, and how to get them to follow a path, classic tower defence stuff. i had to try so many times until i got it, but it works PERFECTLY in the end. Here is a picture of all my attempts ive exiled in a jail folder: 
+
+![exiled...](exiled_code.png)
+
+In terms of player controls, i have the 4 directional movement down, and thats including te start of a global counter system to turn the game turn based. Things are finally lining up. its so real. im so excited. its a lot of work :sob:
