@@ -103,4 +103,17 @@ Second of all, tutorials really are godsent sometimes. This last week and a half
 
 ![exiled...](exiled_code.png)
 
-In terms of player controls, i have the 4 directional movement down, and thats including te start of a global counter system to turn the game turn based. Things are finally lining up. its so real. im so excited. its a lot of work :sob:
+In terms of player controls, i have the 4 directional movement down, and thats including the start of a global counter system to turn the game turn based. Things are finally lining up. its so real. im so excited. its a lot of work :sob:
+
+BUT IT WORKS
+IT FINALLY WORKS OH MY GOD
+
+What it does so far:
+- 4 directional player movement in a grid 
+- enemy spawn with customizable waves
+- enemy movement that relies on player moving first 
+
+Things to do:
+- player health system
+- enemy damage?
+- end goal to defend 
