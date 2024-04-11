@@ -4,6 +4,8 @@
 * [Conceptualizing](#conceptualizing)
 * [Prototyping Stage 1](#prototypingstage1)
 * [Prototyping Stage 2](#prototypingstage2)
+* [Prototyping Stage 3](#prototypingstage3)
+* [Prototyping Stage 4](#prototypingstage4)
 
 
 ## Game Analysis
@@ -101,7 +103,7 @@ first of all, moving to godot was the best decision of my life. I was able to se
 
 Second of all, tutorials really are godsent sometimes. This last week and a half ive spent so much time trying to understand how to spawn enemies, and how to get them to follow a path, classic tower defence stuff. i had to try so many times until i got it, but it works PERFECTLY in the end. Here is a picture of all my attempts ive exiled in a jail folder: 
 
-![exiled...](exiled_code.png)
+![exiled...](exiled_scripts.png)
 
 In terms of player controls, i have the 4 directional movement down, and thats including the start of a global counter system to turn the game turn based. Things are finally lining up. its so real. im so excited. its a lot of work :sob:
 
@@ -117,3 +119,12 @@ Things to do:
 - player health system
 - enemy damage?
 - end goal to defend 
+
+## PrototypingStage3
+
+I have to face the music. What I have made is not very fun...
+![Grid placement ideas for enemies and player](grid_placements.png)
+
+
+
+## PrototypingStage4
