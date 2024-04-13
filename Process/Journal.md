@@ -128,8 +128,11 @@ I have to face the music. What I have made is not very fun...
 ![Grid placement ideas for enemies and player](grid_placements.PNG)
 
 
-
 ## PrototypingStage4
 
 
+
+
 ## FinalDesignJournal
+
+
