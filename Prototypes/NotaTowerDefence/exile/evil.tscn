@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cs31llgh56vp"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_36reo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0yalq"]
+size = Vector2(64, 64)
+
+[node name="Evil" type="PathFollow2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(64.5, 64.5)
+texture = SubResource("PlaceholderTexture2D_36reo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_0yalq")

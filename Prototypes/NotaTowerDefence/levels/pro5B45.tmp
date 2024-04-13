@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://btkjwnuxpw0cq"]
+
+[ext_resource type="Script" path="res://levels/path2DSpawner.gd" id="1_pq6lm"]
+[ext_resource type="PackedScene" uid="uid://d2b4p83vrab1l" path="res://enemies/BaseEnemy.tscn" id="2_d65sx"]
+
+[sub_resource type="Curve2D" id="Curve2D_o8u1n"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 192, 129, 0, 0, 0, 0, 576, 128, 0, 0, 0, 0, 576, 256, 0, 0, 0, 0, 192, 256, 0, 0, 0, 0, 192, 448, 0, 0, 0, 0, 832, 447, 0, 0, 0, 0, 832, 317)
+}
+point_count = 7
+
+[node name="prototype Path" type="Node2D"]
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_o8u1n")
+script = ExtResource("1_pq6lm")
+
+[node name="BaseEnemy" parent="Path2D" instance=ExtResource("2_d65sx")]
+position = Vector2(192, 129)
+rotation = -0.00260416

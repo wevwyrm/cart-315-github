@@ -1,0 +1,46 @@
+:) 
+
+Design Notes:
+-------------
+1. when creating/putting down things, make sure u have both grid snap AND smart snap on
+2. current tiles are at 64x64, if changed make sure to also change it for the player
+
+
+Base Necessities Checklist:
+---------------------------
+	DONE - player can collide into enemy but cant move into them
+		IMPORTANT == collisions need to  be specifically set to match the 64x64 tile constraints 
+					 this means, enemies gotta be in the middle of that 64x64, and be mindful of the path 
+					 (make chart for tile placement :) )
+	DONE - player can cross path so long as no enemy ontop
+	DONE - any action (ie moving, playing cards, upgrading) moves enemy forward
+	
+	- enemy health
+	- end goal health 
+	- game over screen
+	- main menu
+	- global countdown 
+
+
+Quality of Life Checklist:
+--------------------------
+	- counter that fills up before ennemi movies
+	- visible enemy health
+	- visible player health?
+
+
+BRAIN ROT
+=========
+	is the player part of the ending? or is that a seperate thing
+	goal to defeat enemies before counter drops to 0 or player dies? 
+	enemies do timer damage
+	do i even want health on the main tower? 
+	
+	lost turn per enemy? enemy stays there for x turn, each turn an enemy is there they make u lose a timer\
+	> incentive to kill the ones in the back as much as the front
+	
+	> split paths? just in case...
+	
+	> check out game zipper, if its not fun, then what can u do about it
+	> how to make it visually see whats going on lmfao
+	

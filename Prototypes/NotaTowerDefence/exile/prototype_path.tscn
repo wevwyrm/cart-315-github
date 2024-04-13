@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://btkjwnuxpw0cq"]
+
+[ext_resource type="PackedScene" uid="uid://d2b4p83vrab1l" path="res://exile/BaseEnemy.tscn" id="2_4pldn"]
+
+[sub_resource type="Curve2D" id="Curve2D_o8u1n"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 192, 129, 0, 0, 0, 0, 576, 128, 0, 0, 0, 0, 576, 256, 0, 0, 0, 0, 192, 256, 0, 0, 0, 0, 192, 448, 0, 0, 0, 0, 832, 447, 0, 0, 0, 0, 832, 317)
+}
+point_count = 7
+
+[node name="Path2D" type="Path2D"]
+curve = SubResource("Curve2D_o8u1n")
+
+[node name="BaseEnemy" parent="." instance=ExtResource("2_4pldn")]
+position = Vector2(192, 129)
+rotation = -0.00260416
+script = null

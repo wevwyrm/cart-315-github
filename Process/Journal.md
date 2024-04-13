@@ -6,6 +6,8 @@
 * [Prototyping Stage 2](#prototypingstage2)
 * [Prototyping Stage 3](#prototypingstage3)
 * [Prototyping Stage 4](#prototypingstage4)
+* [Final Design Journal](#FinalDesignJournal)
+
 
 
 ## Game Analysis
@@ -128,3 +130,6 @@ I have to face the music. What I have made is not very fun...
 
 
 ## PrototypingStage4
+
+
+## FinalDesignJournal

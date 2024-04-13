@@ -1,0 +1,47 @@
+[gd_scene load_steps=7 format=3 uid="uid://dd6dxicxqnfi"]
+
+[ext_resource type="PackedScene" uid="uid://ca4svr163ty2y" path="res://tower/tower.tscn" id="1_6tlmo"]
+[ext_resource type="Texture2D" uid="uid://cjt0vgh4qisvs" path="res://tile.png" id="1_lpj3o"]
+[ext_resource type="Script" path="res://levels/PathSpawner.gd" id="2_2btyo"]
+[ext_resource type="PackedScene" uid="uid://cx8vpawneaw7r" path="res://levels/baseEnemy.tscn" id="2_q3jhj"]
+[ext_resource type="PackedScene" uid="uid://crsqf4qjk7hss" path="res://levels/userInterface.tscn" id="4_ehpsb"]
+
+[sub_resource type="Curve2D" id="Curve2D_8hpmp"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 62.7692, 160, 0, 0, 0, 0, 926.769, 160)
+}
+point_count = 2
+
+[node name="level Prototype" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 704.0
+
+[node name="Sprite2D2" type="Sprite2D" parent="ColorRect"]
+position = Vector2(32, 96)
+rotation = -1.5708
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_lpj3o")
+
+[node name="Sprite2D" type="Sprite2D" parent="ColorRect"]
+position = Vector2(896, 96)
+rotation = 1.5708
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_lpj3o")
+
+[node name="Tower" parent="." instance=ExtResource("1_6tlmo")]
+position = Vector2(544, 288)
+
+[node name="CharacterFollow2D" parent="." instance=ExtResource("2_q3jhj")]
+position = Vector2(96, 448)
+
+[node name="Path2D" type="Path2D" parent="."]
+position = Vector2(-28.4444, -64)
+scale = Vector2(0.962963, 1)
+curve = SubResource("Curve2D_8hpmp")
+script = ExtResource("2_2btyo")
+
+[node name="userInterface" parent="." instance=ExtResource("4_ehpsb")]
+
+[connection signal="towerMove" from="Tower" to="Path2D" method="_on_tower_move"]
