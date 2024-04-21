@@ -2,10 +2,15 @@
 ## Index
 * [Game Analysis](#game-analysis)
 * [Conceptualizing](#conceptualizing)
+
 * [Prototyping Stage 1](#prototypingstage1)
+
 * [Prototyping Stage 2](#prototypingstage2)
+
 * [Prototyping Stage 3](#prototypingstage3)
+
 * [Prototyping Stage 4](#prototypingstage4)
+
 * [Final Design Journal](#FinalDesignJournal)
 
 
@@ -125,14 +130,109 @@ Things to do:
 ## PrototypingStage3
 
 I have to face the music. What I have made is not very fun...
+It's a strange experience to be told to fail, and an even stranger on to learn how to be okay with failure. 
+Did I manage to make a fun prototype? No.
+Did I learn a lot? Yes!
+
+After talking with the prof about it, I feel a lot more confident with my work :)
+I'm gonna keep at it, keep working on the protype to figure out the final kinks in the game logic. 
+
+Its a shame that this idea i've had forever doesnt really work, but I guess the whole purpose of doing these prototypes is to figure out what works and what doesn't. Within those terms, I'd consider myself pretty on track.
+
+Some sketches for grid placement ideas:
 ![Grid placement ideas for enemies and player](grid_placements.PNG)
+
+
+THE GLOBAL COUNTER:
+I absolutly had to make myself a graph to figure out how the counter system works...
+Once I did tho, it suddenly started to click.
+
+![counter graph](counter.jpg)
+
 
 
 ## PrototypingStage4
 
+Here is a culmination of the notes I took within godot itself (contained in a random txt file called levelDesignNotes.txt) 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:) 
+
+Design Notes:
+-------------
+1. when creating/putting down things, make sure u have both grid snap AND smart snap on
+2. current tiles are at 64x64, if changed make sure to also change it for the player
 
 
+Base Necessities Checklist:
+---------------------------
+	DONE - player can collide into enemy but cant move into them
+		IMPORTANT == collisions need to  be specifically set to match the 64x64 tile constraints 
+					 this means, enemies gotta be in the middle of that 64x64, and be mindful of the path 
+					 (make chart for tile placement :) )
+	DONE - player can cross path so long as no enemy ontop
+	DONE - any action (ie moving, playing cards, upgrading) moves enemy forward
+	
+	- enemy health
+	- end goal health 
+	- game over screen
+	- main menu
+	- global countdown 
+
+
+Quality of Life Checklist:
+--------------------------
+	- counter that fills up before ennemi movies
+	- visible enemy health
+	- visible player health?
+
+
+BRAIN ROT
+=========
+	is the player part of the ending? or is that a seperate thing
+	goal to defeat enemies before counter drops to 0 or player dies? 
+	enemies do timer damage
+	do i even want health on the main tower? 
+	
+	lost turn per enemy? enemy stays there for x turn, each turn an enemy is there they make u lose a timer\
+	> incentive to kill the ones in the back as much as the front
+	
+	> split paths? just in case...
+	
+	> check out game zipper, if its not fun, then what can u do about it
+	> how to make it visually see whats going on lmfao
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+> gathering resources for making the presentation
+Spent some time preparing for the final showcase, definetly leaning on the whole "i experimented and it failed!" angle. 
+    --> I added the presentation in the Final Game Prototype folder! so everybody can see it in all its glory!!!
+
+
+> simple and quick art assets to add some type of *vibe* to the prototype
+Made a tower and bug enemy, decided to not to make the wolf enemy due to time constraints, but damn would it have looked good...
+Here are some doodles and the final results:
+
+![bug](bug.PNG) ![tower](tower.PNG)
+![enemy designs before digitazation](original_sketches.jpg)
+
+![rip wolf](wolf.jpg)
 
 ## FinalDesignJournal
 
+> notes from classmates!
+Here are the notes I ended up taking regarding my prototype :)
+Thank youuuuu feedback!!!
 
+- consider: switching genres... lean into puzzles? maybe a tower defence puzzle where you have limited movements where u can place/replace towers in specific slots.
+- must pivot goal idea, its a rudamentary foundation that can be expanded upon. maybe as yourself another goal question? maybe try something else completly different?
+- consider: towers that move? 
+- consider: towers that break down, gotta go around and fix them up
+
+
+> my thoughts on this entire process 
+(how it really just builds up, how its so hard to let myself fail... and the acceptance that comes with it...)
+
+It was an interesting experience. I think this class definetly helped normalize failure? I feel less afraid of trying out things even if they dont originally pan out the way I wanted them to.
+
+My next steps forward is figuring out how to change goals and think of new questions in the face of a protytpe not functioning. I have a lot to learn, still. I feel like I'm leaving the class having learnt more about myself than anything else... Is that a good thing? Who knows :shrug:
