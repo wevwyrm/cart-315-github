@@ -205,17 +205,23 @@ BRAIN ROT
 
 
 > gathering resources for making the presentation
+
 Spent some time preparing for the final showcase, definetly leaning on the whole "i experimented and it failed!" angle. 
     --> I added the presentation in the Final Game Prototype folder! so everybody can see it in all its glory!!!
 
 
 > simple and quick art assets to add some type of *vibe* to the prototype
+
 Made a tower and bug enemy, decided to not to make the wolf enemy due to time constraints, but damn would it have looked good...
 Here are some doodles and the final results:
 
-![bug](bug.PNG) ![tower](tower.PNG)
-![enemy designs before digitazation](original_sketches.jpg)
+Sprites That were added to the game =
+![bug](bug.png) 
+![tower](tower.png)
 
+Sketches of the Enemies before digitization=
+![enemy designs before digitazation](original_sketches.jpg)
+Rest in peace wolf that never made it into the prototype...=
 ![rip wolf](wolf.jpg)
 
 ## FinalDesignJournal
@@ -234,5 +240,7 @@ Thank youuuuu feedback!!!
 (how it really just builds up, how its so hard to let myself fail... and the acceptance that comes with it...)
 
 It was an interesting experience. I think this class definetly helped normalize failure? I feel less afraid of trying out things even if they dont originally pan out the way I wanted them to.
+
+Would I go through this whole process again? Hell yea! I think design journals are such a nice way of documenting my work... especially when I tend not to give myself much credit for my efforts. I really do hope to keep implementing them into my future work. 
 
 My next steps forward is figuring out how to change goals and think of new questions in the face of a protytpe not functioning. I have a lot to learn, still. I feel like I'm leaving the class having learnt more about myself than anything else... Is that a good thing? Who knows :shrug:
